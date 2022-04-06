@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header__div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.header__text{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+.dropdows__div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header__image{
+    width: 100% ;
+    object-fit: cover;
+    height: 629px;
+    position: absolute;
+}
+.curusel{
+    padding-top: 50px;
+}
+.header__dropdown{
+    background: #000 !important;
+    color: #fff !important;
+    transition: 0.7s;
+    box-shadow: 0px 0px 20px #fff !important;
+    border: 2px solid #000;
+    transition: 0.7s;
+}
+.show{
+    transition: 0.5s;
+}
+.dropdown-item:hover{
+    background: #000 !important;
+    color: #fff !important;
+}
+.dropdown-item{
+    transition: 0.7s;
+}
+.corusel{
+    min-height: 579px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.carousel-item{
+    transition: .9s ease-in-out !important;
+}
+.corusel{
+    position: relative;
+}
+.corusel::before{
+    width: 123px;
+    height: 123px;
+    left: 37px;
+    top: 62px;
+    content: "";
+    background: #FB37FF;
+    filter: blur(71px);
+    position: absolute;
+    display: flex;
+}
+.corusel::after{
+    width: 123px;
+    height: 123px;
+    right: 39px;
+    top: 376px;
+    content: "";
+    background: #18B2DE;
+    filter: blur(62px);
+    position: absolute;
+    display: flex;
+}
